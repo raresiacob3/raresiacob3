@@ -7,7 +7,7 @@ I'm a passionate **Software Developer** with a strong background in **Python**, 
 ## 🧠 Tech Stack
 
 - **Languages:** Python, JavaScript, Java, C
-- **Web Development:** React.js, Node.js, Express.js, Flask, Django, REST APIs
+- **Web Development:** React.js, Node.js, Express.js, Flask, Django, REST APIs, SpringBoot
 - **Databases:** PostgreSQL, MongoDB, MySQL
 - **DevOps & Tools:** Docker, Git, Jenkins, Jira, CI/CD pipelines
 - **Testing:** PyTest, Google Test, Unit Testing
