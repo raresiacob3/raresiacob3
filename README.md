@@ -31,6 +31,8 @@ Classic memory game built using vanilla JavaScript, HTML, and CSS.
 🔹 [Drum Kit](https://github.com/raresiacob3/DrumKit)  
 Interactive drum pad website using JavaScript event listeners and sound effects.
 
+🔹 [Memory-Vials](https://github.com/raresiacob3/Crypto-Token)
+
 ---
 
 ## 📊 GitHub Stats
