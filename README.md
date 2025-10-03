@@ -16,12 +16,6 @@ I'm a passionate **Software Developer** with a strong background in **Python**, 
 
 ## 🚀 Featured Projects
 
-🔹 [Crypto-Token](https://github.com/raresiacob3/Crypto-Token)  
-ERC-20 token written in Solidity with deployment using Hardhat.
-
-🔹 [Defi-Bank](https://github.com/raresiacob3/Defi-Bank)  
-A decentralized banking system using Solidity, enabling deposits and interest rewards.
-
 🔹 [Doc-Droid](https://github.com/raresiacob3/doc-droid)  
 A document scanner and converter for PDF/DOCX files using Python and OCR.
 
