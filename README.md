@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Rares Iacob
 
-I'm a passionate **Software Developer** with a strong background in **Python**, **Web Development**, and **automation**. I enjoy building scalable applications, experimenting with AI, and solving real-world problems through code. Currently pursuing a Master's in Automatic Systems Engineering while working as a developer in the industry.
+I'm a passionate **Software Developer** with a strong background in **Java**, **SQL** **Web Development**, and **automation**. I enjoy building scalable applications, experimenting with AI, and solving real-world problems through code. Currently pursuing a Master's in Automatic Systems Engineering while working as a developer in the industry.
 
 ---
 
