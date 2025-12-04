@@ -30,6 +30,9 @@ Interactive drum pad website using JavaScript event listeners and sound effects.
 🔹 [Questify](https://github.com/raresiacob3/questify)
 Full-stack gamified quest tracker built with Spring Boot (Java) & React. Features XP system, levels, filters, status transitions and a dark dashboard UI.
 
+🔹[library](https://github.com/raresiacob3/library)
+Sql project
+
 ---
 
 ## 📊 GitHub Stats
