@@ -27,6 +27,9 @@ Interactive drum pad website using JavaScript event listeners and sound effects.
 
 🔹 [Memory-Vials](https://github.com/raresiacob3/MemoryVials)
 
+🔹 [Questify](https://github.com/raresiacob3/questify)
+Full-stack gamified quest tracker built with Spring Boot (Java) & React. Features XP system, levels, filters, status transitions and a dark dashboard UI.
+
 ---
 
 ## 📊 GitHub Stats
