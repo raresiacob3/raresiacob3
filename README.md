@@ -1,115 +1,42 @@
-# 👋 Hi there, I'm Rares Iacob
+# Rares Iacob
 
-I'm a Software Developer focused on Java, Spring Boot, SQL and full-stack web applications.  
-I enjoy building real-world products with clean backend architecture, REST APIs, authentication, database design, and modern frontend interfaces.
+**Software developer · Java / Spring Boot backend · Python and LLM integration**
 
-Currently, I’m improving my backend/full-stack skills through production-style projects using Spring Boot, PostgreSQL, React, TypeScript and Docker.
+I build backend services and ship complete products. I started in automotive embedded software (Embedded C, AUTOSAR, a radar-sensor platform at Magna), then moved into production troubleshooting with SQL and logs at The Access Group. I'm looking for a junior backend developer role.
 
----
-
-## 🧠 Tech Stack
-
-- **Backend:** Java, Spring Boot, Spring Security, REST APIs, JPA/Hibernate, Node.js, Express
-- **Frontend:** React, TypeScript, JavaScript, Vite, Tailwind CSS, HTML5, CSS3
-- **Databases:** PostgreSQL, MySQL, MongoDB, SQL
-- **Tools & DevOps:** Git, GitHub, Docker, Docker Compose, Postman, Swagger/OpenAPI
-- **Testing:** JUnit, Mockito, PyTest, Google Test
-- **Other:** Python, OpenCV, Firebase
+📄 [CV (PDF)](CV.pdf) · [CV (web)](CV.md) · [LinkedIn](https://www.linkedin.com/in/rares-iacob-755380230/) · [Email](mailto:raresiacob26@gmail.com)
 
 ---
 
-## 🚀 Featured Projects
+## Featured projects
 
-### 🔹 [JobPilot](https://github.com/raresiacob3/jobpilot)
+### [JobPilot](https://github.com/raresiacob3/jobpilot) · Java 21 · Spring Boot 3 · PostgreSQL · React
 
-Full-stack SaaS-style job application tracker built with Spring Boot, PostgreSQL, React, TypeScript and Docker.
+Multi-user job application tracker.
+- JWT access tokens with server-side refresh-token rotation and reuse detection
+- Pipeline enforced as a server-side state machine (invalid transitions return 409)
+- Per-user data isolation (another user's resources return 404), Flyway migrations, grouped analytics queries instead of N+1
+- Docker Compose setup, OpenAPI docs, JUnit/Mockito tests
 
-**Highlights:**
-- JWT authentication with refresh tokens and role-based access control
-- User-owned job applications, companies, contacts and interviews
-- Kanban pipeline with controlled status transitions
-- Dashboard analytics, charts, activity feed and CSV export
-- Admin panel with global statistics
-- PostgreSQL database with Flyway migrations
-- Dockerized local setup with API, database and frontend
+### ScentVault · React Native · Firebase · Cloud Run · OpenAI · published on iOS and Android
 
-**Tech:** Java 21, Spring Boot 3, Spring Security, PostgreSQL, Flyway, React, TypeScript, Tailwind CSS, Framer Motion, Docker
+Perfume tracking app live on the App Store and Google Play: image-based fragrance recognition with confidence signals, collections, wishlists, Firebase auth and RevenueCat subscriptions. I handled the production builds and store reviews.
 
----
+### [Supplier Intelligence](https://github.com/raresiacob3/supplier-intelligence) · Python · FastAPI · PostgreSQL · Alembic
 
-### 🔹 [Questify](https://github.com/raresiacob3/questify)
-
-Full-stack gamified quest tracker built with Spring Boot and React.  
-Designed to turn everyday tasks into RPG-style quests with XP, levels, filters, status transitions and a clean dark-mode dashboard UI.
-
-**Highlights:**
-- Quest management with status flow: TODO → IN_PROGRESS → DONE
-- XP and leveling system
-- Smart filtering and search
-- Backend API built with Spring Boot
-- React frontend with a dark dashboard interface
-
-**Tech:** Java, Spring Boot, React, JavaScript, SQL, CSS
+Explainable supplier ranking with optional document-grounded LLM explanations.
+- Deterministic weighted ranking computed in one SQL query, with a per-criterion breakdown
+- BM25 retrieval over supplier documents, measured offline (recall@1 0.9, MRR 0.9) and enforced as a regression test
+- 42 pytest tests run in CI on SQLite and PostgreSQL, plus a Docker Compose smoke test
 
 ---
 
-### 🔹 [MemoryVials](https://github.com/raresiacob3/MemoryVials)
+## Also built
 
-Full-stack demo perfume shop with product listing, cart flow, order handling and admin-oriented features.
+- [Questify](https://github.com/raresiacob3/questify): gamified task manager (Spring Boot, React)
+- [MemoryVials](https://github.com/raresiacob3/MemoryVials): perfume shop backend with cart, stock checks and orders (Spring Boot, MongoDB)
+- [Doc-Droid](https://github.com/raresiacob3/doc-droid): Raspberry Pi robot with gesture recognition and line following (Python, OpenCV)
 
-**Highlights:**
-- Product listing with search and sort
-- Product details and cart management
-- Checkout and order confirmation flow
-- Backend product/order management
-- Contact form saved to database
-- Frontend built with Vite and Tailwind CSS
+## Stack
 
-**Tech:** Java, Spring Boot, MongoDB, JavaScript, Vite, Tailwind CSS
-
----
-
-### 🔹 [Doc-Droid](https://github.com/raresiacob3/doc-droid)
-
-Python-based intelligent robotic platform designed for educational and research purposes.  
-The project combines gesture recognition, line following, infrared sensing and mecanum-based movement.
-
-**Highlights:**
-- Gesture recognition using live camera input
-- Line-following logic
-- Infrared obstacle detection
-- Mecanum wheel movement
-- GPIO-based hardware control
-
-**Tech:** Python, OpenCV, NumPy, Raspberry Pi / GPIO
-
----
-
-## 🧪 Older / Practice Projects
-
-### 🔹 [Simon Game](https://github.com/raresiacob3/Simon-Game)
-Browser-based memory game inspired by the classic Simon toy.  
-Built with vanilla HTML, CSS and JavaScript.
-
-### 🔹 [Drum Kit](https://github.com/raresiacob3/DrumKit)
-Interactive drum kit built with HTML, CSS and JavaScript.  
-Users can play sounds using keyboard keys or mouse clicks.
-
-### 🔹 [Library SQL Database Project](https://github.com/raresiacob3/library)
-Structured SQL project that models a simple library management system with schema design, sample data and SQL queries.
-
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=raresiacob3&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=raresiacob3&layout=compact&theme=tokyonight)
-
----
-
-## 📫 Let's Connect
-
-- **Email:** [raresiacob26@yahoo.com](mailto:raresiacob26@yahoo.com)
-- **LinkedIn:** [linkedin.com/in/rares-iacob](https://linkedin.com/in/rares-iacob)
-- **GitHub:** [github.com/raresiacob3](https://github.com/raresiacob3)
+**Backend:** Java, Spring Boot, Spring Security, JPA/Hibernate, Python, FastAPI · **Data:** PostgreSQL, SQL, Flyway, Alembic, MongoDB · **Frontend:** React, TypeScript, React Native · **Delivery:** Docker, GitHub Actions, JUnit, Mockito, pytest · **Embedded:** Embedded C, AUTOSAR, VectorCAST, Google Test
